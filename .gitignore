@@ -3,3 +3,7 @@
 ################################################################################
 
 /Standard.TransactionSimulator.Applicator/obj
+/.vs/Standard.TransactionSimulator/v16
+/Standard.TransactionSimulator.Domain/obj
+/Standard.TransactionSimulator.Infrastructure/obj
+/Standard.TransactionSimulator.WebApi/obj

@@ -7,3 +7,6 @@
 /Standard.TransactionSimulator.Domain/obj
 /Standard.TransactionSimulator.Infrastructure/obj
 /Standard.TransactionSimulator.WebApi/obj
+/Standard.TransactionSimulator.Applicator/bin/Debug/netstandard2.0
+/.vs/Standard.TransactionSimulator
+/Standard.TransactionSimulator.WebApi/bin/Debug/netcoreapp3.1

@@ -4,5 +4,15 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+    <PackageReference Include="Autofac.Configuration" Version="5.1.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Standard.TransactionSimulator.Applicator\Standard.TransactionSimulator.Applicator.csproj" />
+  </ItemGroup>
+
 
 </Project>

@@ -4,4 +4,18 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="IntegrationEvents\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+    <PackageReference Include="MediatR" Version="8.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.6" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.6" />
+    <PackageReference Include="Standand.Framework.MessageBroker" Version="1.1.11" />
+    <PackageReference Include="Standard.Stock.Event" Version="1.1.0" />
+  </ItemGroup>
+
 </Project>

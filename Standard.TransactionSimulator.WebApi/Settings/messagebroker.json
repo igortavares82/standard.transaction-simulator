@@ -1,0 +1,20 @@
+{
+  "brokerOptions": {
+    "HostName": "localhost",
+    "UserName": "simulator",
+    "Password": "simulator",
+    "VirtualHost": "/",
+    "MaxDegreeOfParallelism": "1",
+    "ConnectionName": "simulator"
+  },
+  "channels": {
+    "trending": {
+      "get": {
+        "queue": "microsservice.stock.trending.get",
+        "durable": false,
+        "autoDelete": true,
+        "exclusive": false
+      }
+    }
+  }
+}

@@ -22,7 +22,7 @@ namespace Standard.TransactionSimulator.Applicator.Commands
         public async Task<Unit> Handle(SimulateTransationCommand request, CancellationToken cancellationToken)
         {
             TrendingRequestEvent trendingRequest = new TrendingRequestEvent();
-            await EventBus.CallAsync<TrendingRequestEvent,TrendingResponseEvent>(trendingRequest, TrendingOptions);
+            TrendingResponseEvent treendingResponse = await EventBus.CallAsync<TrendingRequestEvent,TrendingResponseEvent>(trendingRequest, TrendingOptions);
 
             return Unit.Value;
         }

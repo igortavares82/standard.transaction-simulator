@@ -9,13 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Appl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{6BF68E7D-9F15-4711-BEC6-5D945914BDF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Standard.TransactionSimulator.WebApi", "Standard.TransactionSimulator.WebApi\Standard.TransactionSimulator.WebApi.csproj", "{E1BF0775-5F91-459A-890C-38D95DDC6182}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Standard.TransactionSimulator.WebApi", "Standard.TransactionSimulator.WebApi\Standard.TransactionSimulator.WebApi.csproj", "{E1BF0775-5F91-459A-890C-38D95DDC6182}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Standard.TransactionSimulator.Applicator", "Standard.TransactionSimulator.Applicator\Standard.TransactionSimulator.Applicator.csproj", "{1D473E32-CE53-4F66-BDF8-FD0D7F9ECD31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Standard.TransactionSimulator.Applicator", "Standard.TransactionSimulator.Applicator\Standard.TransactionSimulator.Applicator.csproj", "{1D473E32-CE53-4F66-BDF8-FD0D7F9ECD31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Standard.TransactionSimulator.Domain", "Standard.TransactionSimulator.Domain\Standard.TransactionSimulator.Domain.csproj", "{069B6046-0537-4F1E-A477-FA2286AA8085}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Standard.TransactionSimulator.Domain", "Standard.TransactionSimulator.Domain\Standard.TransactionSimulator.Domain.csproj", "{069B6046-0537-4F1E-A477-FA2286AA8085}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Standard.TransactionSimulator.Infrastructure", "Standard.TransactionSimulator.Infrastructure\Standard.TransactionSimulator.Infrastructure.csproj", "{9889C183-2F4C-4502-9B6F-16A6E048E3C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Standard.TransactionSimulator.Infrastructure", "Standard.TransactionSimulator.Infrastructure\Standard.TransactionSimulator.Infrastructure.csproj", "{9889C183-2F4C-4502-9B6F-16A6E048E3C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

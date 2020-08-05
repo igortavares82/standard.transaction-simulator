@@ -8,6 +8,14 @@
     "ConnectionName": "simulator"
   },
   "channels": {
+    "transaction": {
+      "send": {
+        "queue": "microsservice.stock.transaction.send",
+        "durable": false,
+        "autoDelete": true,
+        "exclusive": false
+      }
+    },
     "trending": {
       "get": {
         "queue": "microsservice.stock.trending.get",

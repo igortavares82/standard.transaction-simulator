@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Standard.TransactionSimulat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Standard.TransactionSimulator.Applicator", "Standard.TransactionSimulator.Applicator\Standard.TransactionSimulator.Applicator.csproj", "{1D473E32-CE53-4F66-BDF8-FD0D7F9ECD31}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Standand.Framework.MessageBroker", "..\standard.framework\Standard.Framework\Standand.Framework.MessageBroker\Standand.Framework.MessageBroker.csproj", "{03521A4C-E054-4BC6-BAC1-928B31B77C2A}"
-EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FD53ADD0-85A1-4A3C-B81A-54D4284DAF9D}"
 EndProject
 Global
@@ -29,10 +27,6 @@ Global
 		{1D473E32-CE53-4F66-BDF8-FD0D7F9ECD31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D473E32-CE53-4F66-BDF8-FD0D7F9ECD31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D473E32-CE53-4F66-BDF8-FD0D7F9ECD31}.Release|Any CPU.Build.0 = Release|Any CPU
-		{03521A4C-E054-4BC6-BAC1-928B31B77C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{03521A4C-E054-4BC6-BAC1-928B31B77C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{03521A4C-E054-4BC6-BAC1-928B31B77C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{03521A4C-E054-4BC6-BAC1-928B31B77C2A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FD53ADD0-85A1-4A3C-B81A-54D4284DAF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FD53ADD0-85A1-4A3C-B81A-54D4284DAF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD53ADD0-85A1-4A3C-B81A-54D4284DAF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -44,7 +38,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E1BF0775-5F91-459A-890C-38D95DDC6182} = {3AD30C2A-CE77-4C33-A930-AC7BF1895BF9}
 		{1D473E32-CE53-4F66-BDF8-FD0D7F9ECD31} = {8D5DACA3-1F16-454B-94FF-7755B4393244}
-		{03521A4C-E054-4BC6-BAC1-928B31B77C2A} = {8D5DACA3-1F16-454B-94FF-7755B4393244}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {86A40292-B7AC-4A0A-BFC9-FD2D29E05D08}

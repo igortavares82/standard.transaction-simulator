@@ -33,7 +33,7 @@ namespace Standard.TransactionSimulator.Applicator.Commands
         public async Task<Unit> Handle(SimulateTransationCommand request, CancellationToken cancellationToken)
         {
             TrendingRequestEvent trendingRequest = new TrendingRequestEvent();
-            TrendingResponseEvent trendingResponse = await EventBus.CallAsync<TrendingRequestEvent,TrendingResponseEvent>(trendingRequest, TrendingOptions);
+            TrendingResponseEvent trendingResponse = null;// await EventBus.CallAsync<TrendingRequestEvent,TrendingResponseEvent>(trendingRequest, TrendingOptions);
 
             string[] stocks = Configuration.GetSection("stocks").Get<string[]>();
             int totalEvents = new Random().Next(1, 1000);
@@ -47,7 +47,7 @@ namespace Standard.TransactionSimulator.Applicator.Commands
                     Initials = stock,
                     Type = new Random().Next(1, 3),
                     Quantity = new Random().Next(1, 1000),
-                    Price = GetPrice(trendingResponse.Trendings.FirstOrDefault(it => it.Initials == stock))
+                    Price = GetPrice(trendingResponse?.Trendings.FirstOrDefault(it => it.Initials == stock))
                 };
 
                 await EventBus.PublishAsync(receiveTransaction, TransactionOptions);

@@ -10,3 +10,4 @@
 /Standard.TransactionSimulator.Applicator/bin/Debug/netstandard2.0
 /.vs/Standard.TransactionSimulator
 /Standard.TransactionSimulator.WebApi/bin/Debug/netcoreapp3.1
+/obj/Docker

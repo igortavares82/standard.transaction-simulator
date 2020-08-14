@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  standard.transactionsimulator.webapi:
+    image: ${DOCKER_REGISTRY-}standardtransactionsimulatorwebapi
+    build:
+      context: .
+      dockerfile: Standard.TransactionSimulator.WebApi/Dockerfile

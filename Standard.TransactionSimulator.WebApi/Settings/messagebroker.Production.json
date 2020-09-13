@@ -1,0 +1,28 @@
+{
+  "brokerOptions": {
+    "HostName": "rabbitmq",
+    "UserName": "simulator",
+    "Password": "simulator",
+    "VirtualHost": "/",
+    "MaxDegreeOfParallelism": "1",
+    "ConnectionName": "simulator"
+  },
+  "channels": {
+    "transaction": {
+      "send": {
+        "queue": "microsservice.stock.transaction.send",
+        "durable": false,
+        "autoDelete": true,
+        "exclusive": false
+      }
+    },
+    "trending": {
+      "get": {
+        "queue": "microsservice.stock.trending.get",
+        "durable": false,
+        "autoDelete": true,
+        "exclusive": false
+      }
+    }
+  }
+}

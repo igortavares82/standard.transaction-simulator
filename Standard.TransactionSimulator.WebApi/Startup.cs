@@ -21,7 +21,7 @@ namespace Standard.TransactionSimulator.WebApi
             Builder = new ConfigurationBuilder().SetBasePath(Path.Combine(env.ContentRootPath, "Settings"))
                                                 .AddJsonFile($"connectionstrings.json", true, true)
                                                 .AddJsonFile($"appsettings.json", true, true)
-                                                .AddJsonFile($"messagebroker.json", true, true)
+                                                .AddJsonFile($"messagebroker.{env.EnvironmentName}.json", true, true)
                                                 .AddEnvironmentVariables();
 
             Configuration = Builder.Build();

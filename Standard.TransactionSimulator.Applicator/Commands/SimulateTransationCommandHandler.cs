@@ -36,7 +36,7 @@ namespace Standard.TransactionSimulator.Applicator.Commands
             TrendingResponseEvent trendingResponse = null;// await EventBus.CallAsync<TrendingRequestEvent,TrendingResponseEvent>(trendingRequest, TrendingOptions);
 
             string[] stocks = Configuration.GetSection("stocks").Get<string[]>();
-            int totalEvents = new Random().Next(1, 1000);
+            int totalEvents = new Random().Next(1, 10);
 
             for (int i = 0; i < totalEvents; i++) 
             {

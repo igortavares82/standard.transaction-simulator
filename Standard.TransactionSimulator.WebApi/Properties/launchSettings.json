@@ -15,14 +15,14 @@
     },
     "Standard.TransactionSimulator.WebApi": {
       "commandName": "Project",
-      "launchBrowser": true,
+      "launchBrowser": false,
       "applicationUrl": "http://localhost:5000"
     },
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api/home",
-      "publishAllPorts": true
+      "publishAllPorts": false
     }
   }
 }

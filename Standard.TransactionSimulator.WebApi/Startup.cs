@@ -53,7 +53,7 @@ namespace Standard.TransactionSimulator.WebApi
             app.UseRouting();
             app.ConfigureEventBus();
             app.UseEndpoints(endpoints => endpoints.MapControllers());
-            app.StartSimulator();
+            //app.StartSimulator();
         }
     }
 }

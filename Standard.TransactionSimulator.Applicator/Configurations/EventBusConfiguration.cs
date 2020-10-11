@@ -13,7 +13,6 @@ namespace Standard.TransactionSimulator.Applicator.Configurations
             IEventBus eventBus = app.ApplicationServices.GetRequiredService<IEventBus>();
 
             IOptions<TrendingOptions> options = app.ApplicationServices.GetRequiredService<IOptions<TrendingOptions>>();
-            //eventBus.SubscribeAsync<ReceiveTransactionEvent, IIntegrationEventHandler<ReceiveTransactionEvent>>(options.Value);
         }
     }
 }

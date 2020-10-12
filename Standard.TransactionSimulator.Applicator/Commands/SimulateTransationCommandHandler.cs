@@ -41,7 +41,7 @@ namespace Standard.TransactionSimulator.Applicator.Commands
         {
             IList<ReceiveTransactionEvent> events = new List<ReceiveTransactionEvent>();
 
-            string[] stocks = Configuration.GetSection("stocks").Get<string[]>();
+            string[] stocks = Configuration.GetSection("keys:stocks").Get<string[]>();
             int totalEvents = 0;
 
             if (!quantity.HasValue)

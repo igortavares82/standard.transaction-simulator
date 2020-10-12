@@ -9,9 +9,9 @@ namespace Standard.TransactionSimulator.Applicator.Configurations
     {
         public static void ConfigureOptions(this IServiceCollection services, IConfiguration configuration)
         {
-            services.Configure<BrokerOptions>(options => configuration.GetSection("brokerOptions").Bind(options));
-            services.Configure<TrendingOptions>(options => configuration.GetSection("channels:trending:get").Bind(options));
-            services.Configure<TransactionOptions>(options => configuration.GetSection("channels:transaction:send").Bind(options));
+            services.Configure<BrokerOptions>(options => configuration.GetSection("messagebroker:brokerOptions").Bind(options));
+            services.Configure<TrendingOptions>(options => configuration.GetSection("messagebroker:channels:trending:get").Bind(options));
+            services.Configure<TransactionOptions>(options => configuration.GetSection("messagebroker:channels:transaction:send").Bind(options));
         }
     }
 }

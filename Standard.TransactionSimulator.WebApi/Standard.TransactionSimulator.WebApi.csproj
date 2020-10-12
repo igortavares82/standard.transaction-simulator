@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Settings\connectionstring.json" />
+    <Content Remove="Settings\messagebroker.Development.json" />
+    <Content Remove="Settings\messagebroker.json" />
     <Content Remove="Settings\messagebroker.Production.json" />
   </ItemGroup>
 
